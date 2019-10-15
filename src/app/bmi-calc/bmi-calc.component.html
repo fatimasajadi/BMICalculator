@@ -9,7 +9,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="result">{{result}}</div>
+                    <div class="result">{{result | number:'1.00-2'}}</div>
                 </div>
                 <div class="col-sm-8"><button class="btn btn-primary" (click)="bmiCalculator()">Calculate</button>
                 </div>
