@@ -1,0 +1,31 @@
+.container {
+  background-color: #fff;
+  width: 1px;
+  margin-top: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#wrapper {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+}
+
+.result {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100px;
+  height: 40px;
+  margin: auto;
+}
+.form-control {
+  width: 50%;
+}
+
+#category {
+  text-align: left;
+  float: none;
+}
+
+.inline {
+  display: inline-block;
+  margin: 100px;
+}
